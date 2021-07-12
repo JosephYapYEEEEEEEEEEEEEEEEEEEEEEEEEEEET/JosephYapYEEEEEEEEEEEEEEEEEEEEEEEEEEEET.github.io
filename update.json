@@ -2,12 +2,9 @@
   "homepage": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
   "1.16.5": {
     "1.0": "Umm,lijsr", 
-    // List all versions of your mod for the given Minecraft version, along with their changelogs
   },
   "promos": {
     "<mcversion>-latest": "1.0",
-    // Declare the latest "bleeding-edge" version of your mod for the given Minecraft version
     "<mcversion>-recommended": "1.0",
-    // Declare the latest "stable" version of your mod for the given Minecraft version
   }
 }
