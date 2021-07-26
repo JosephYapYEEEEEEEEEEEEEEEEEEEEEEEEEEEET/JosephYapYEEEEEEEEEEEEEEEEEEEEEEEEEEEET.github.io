@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1 style="font-size:100px">GOTCHA</h1>
+  <a id="getreked" href="https://cdn.arstechnica.net/wp-content/uploads/2012/05/astley.jpg" download>CLICK ME</a>
+<span id="rickroll" hidden>
+  <h1 style="font-size:100px">GOTCHA</h1>
 <h1>We're no strangers to love<br/>
 You know the rules and so do I<br/>
 A full commitment's what I'm thinking of<br/>
@@ -57,5 +59,11 @@ Never gonna let you down<br/>
 Never gonna run around and desert you<br/>
 Never gonna make you cry<br/>
 Never gonna say goodbye</h1>
+</span>
+  <script>
+    document.getElementById("getreked").addEventListener("click", () => {
+      document.getElementById("rickroll").hidden = false;
+    });
+  </script>
 </body>
 </html>
