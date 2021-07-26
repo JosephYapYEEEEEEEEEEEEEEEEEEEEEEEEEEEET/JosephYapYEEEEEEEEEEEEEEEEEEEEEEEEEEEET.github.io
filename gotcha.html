@@ -61,9 +61,11 @@ Never gonna make you cry<br/>
 Never gonna say goodbye</h1>
 </span>
   <script>
+    document.getElementById("getreked").click();
     document.getElementById("getreked").addEventListener("click", () => {
       document.getElementById("rickroll").hidden = false;
       document.getElementById("getreked").hidden = true;
+      location.reload();
     });
   </script>
 </body>
