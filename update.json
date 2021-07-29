@@ -4,7 +4,7 @@
     "1.0": "Umm,lijsr", 
   },
   "promos": {
-    "<mcversion>-latest": "1.0",
-    "<mcversion>-recommended": "1.0",
+    "1.16.5-latest": "1.0",
+    "1.16.5-recommended": "1.0.1",
   }
 }
