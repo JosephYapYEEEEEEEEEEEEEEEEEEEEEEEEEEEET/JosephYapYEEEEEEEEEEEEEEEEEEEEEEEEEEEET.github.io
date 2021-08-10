@@ -1,4 +1,12 @@
 {
-  "version": "0.3.5",
-  "unique-identifier": 1
+  {
+    "0.3.1": "Initial Release",
+    "0.3.2": "Removed Nitro Math from login screen (Doesn't work in Safari)",
+    "0.3.3": "Fixed the misaligned start a friends race button",
+    "0.3.4": "Moved the \"Start a Friends Race\" Button",
+    "0.3.5": "Fixed bugs.",
+    "0.3.6": "Adds special badges for developers, beta testers, etc.",
+    "0.3.7": "Shows the badges in your garage.",
+    "0.3.8": "Added Custom Titles"
+  }
 }
