@@ -8,7 +8,7 @@
     "0.3.6": "Adds special badges for developers, beta testers, etc.",
     "0.3.7": "Shows the badges in your garage.",
     "0.3.8": "Added Custom Titles"
-  }
+  },
   "version_check": [
     "0.3.1",
     "0.3.2",
