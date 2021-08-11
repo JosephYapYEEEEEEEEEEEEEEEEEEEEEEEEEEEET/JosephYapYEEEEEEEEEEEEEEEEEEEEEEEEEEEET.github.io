@@ -22,7 +22,7 @@ async function displayData() {
         theirs.innerHTML = params.version;
     }
     if (!!params["apple-app-store"]) {
-        if (params["apple-app-store"] == 1 || params["apple-app-store"] == true) {
+        if (params["apple-app-store"] == 1 || params["apple-app-store"] == "true") {
             download.href = "https://apps.apple.com/app/id1573370632";
             ours.innerHTML = data.version_check_apple[data.version_check_apple.length - 1];
             apple_app_store = true;
