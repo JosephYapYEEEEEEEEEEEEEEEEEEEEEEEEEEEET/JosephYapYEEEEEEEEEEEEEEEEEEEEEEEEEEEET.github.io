@@ -44,12 +44,13 @@ async function displayData() {
 async function displayChangelogs() {
     var foundVersion = false;
     for (let i = 0; i < data.version_check.length; i++) {
-        if (data.version_check[i] == params.version) {
-            foundVersion = true;
-        }
         if (foundVersion) {
             changelogData = `${changelogData}${data.changelogs[data.version_check[i]]}</br>`;
         }
+        if (data.version_check[i] == params.version) {
+            foundVersion = true;
+        }
+        
     }
     changelogText.innerHTML = changelogData;
     changelog.hidden = false;
