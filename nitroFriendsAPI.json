@@ -13,7 +13,8 @@
   "changelogs_apple": {
     "0.3.5": "",
     "0.3.6": "Adds special badges for developers, beta testers, etc.",
-    "0.3.8": "Shows the badges in your garage, added Custom Titles"
+    "0.3.7": "Shows the badges in your garage",
+    "0.3.8": "Added Custom Titles"
   },
   "version_check": [
     "0.3.1",
@@ -28,6 +29,7 @@
   "version_check_apple": [
     "0.3.5",
     "0.3.6",
+    "0.3.7",
     "0.3.8"
   ]
 }
