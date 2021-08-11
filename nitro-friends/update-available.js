@@ -58,7 +58,7 @@ async function displayChangelogs(apple, force) {
         
         }
     }
-    if (!foundVersion) { displayChangeLogs(apple, true); }
+    if (!foundVersion) { displayChangelogs(apple, true); }
     changelogText.innerHTML = changelogData;
     changelog.hidden = false;
 }
