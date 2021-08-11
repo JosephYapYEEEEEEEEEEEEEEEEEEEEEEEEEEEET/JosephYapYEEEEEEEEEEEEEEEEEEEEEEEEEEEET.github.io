@@ -44,19 +44,35 @@ async function displayData() {
 async function displayChangelogs(apple, force) {
     var foundVersion = false;
     if (force) {
-        for (let i = 0; i < data.version_check.length; i++) {
-            changelogData = `${changelogData}${data.changelogs[data.version_check[i]]}</br>`;
-            foundVersion = true;
-        }
-    } else {
-        for (let i = 0; i < data.version_check.length; i++) {
-            if (foundVersion) {
+        if (!apple) {
+            for (let i = 0; i < data.version_check.length; i++) {
                 changelogData = `${changelogData}${data.changelogs[data.version_check[i]]}</br>`;
-            }
-            if (data.version_check[i] == params.version) {
                 foundVersion = true;
             }
-        
+        } else {
+            for (let i = 0; i < data.version_check_apple.length; i++) {
+                changelogData = `${changelogData}${data.changelogs_apple[data.version_check_apple[i]]}</br>`;
+                foundVersion = true;
+            }
+    } else {
+        if (!apple) {
+            for (let i = 0; i < data.version_check.length; i++) {
+                if (foundVersion) {
+                    changelogData = `${changelogData}${data.changelogs[data.version_check[i]]}</br>`;
+                }
+                if (data.version_check[i] == params.version) {
+                    foundVersion = true;
+                }
+            }
+        } else {
+            for (let i = 0; i < data.version_check_apple.length; i++) {
+                if (foundVersion) {
+                    changelogData = `${changelogData}${data.changelogs_apple[data.version_check_apple[i]]}</br>`;
+                }
+                if (data.version_check[i] == params.version) {
+                    foundVersion = true;
+                }
+            }
         }
     }
     if (!foundVersion) { displayChangelogs(apple, true); }
