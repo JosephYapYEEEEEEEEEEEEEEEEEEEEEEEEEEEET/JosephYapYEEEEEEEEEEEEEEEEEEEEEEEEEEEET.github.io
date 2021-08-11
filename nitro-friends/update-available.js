@@ -8,6 +8,7 @@ const changelogText = changelog.getElementsByTagName("p")[0];
 
 var data;
 var apple_app_store;
+var changelogData = "";
 
 async function getVersions() {
     const apiUrl = 'https://josephyapyeeeeeeeeeeeeeeeeeeeeeeeeeeeet.github.io/nitroFriendsAPI.json';
@@ -44,8 +45,10 @@ async function displayChangelogs() {
     var foundVersion = false;
     for (let i = 0; i < data.version_check.length; i++) {
         if (data.version_check[i] == params.version) {
-            alert(params.version)
             foundVersion = true;
+        }
+        if (foundVersion) {
+            changelogData = `${changelogData}${data.changelogs[data.version_check[i]]}`;
         }
     }
 }
