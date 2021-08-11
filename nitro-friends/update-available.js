@@ -3,6 +3,9 @@ const theirs = document.getElementById("theirs");
 const download = document.getElementById("download");
 const urlSearchParams = new URLSearchParams(window.location.search);
 const params = Object.fromEntries(urlSearchParams.entries());
+const changelog = document.getElementById("changelogs");
+const changelogText = changelog.getElementsByTagName("p")[0];
+
 var data;
 var apple_app_store;
 
