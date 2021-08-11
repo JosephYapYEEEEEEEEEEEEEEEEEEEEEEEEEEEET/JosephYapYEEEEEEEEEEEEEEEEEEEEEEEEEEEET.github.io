@@ -37,21 +37,28 @@ async function displayData() {
         download.href = "https://github.com/JosephYapYEEEEEEEEEEEEEEEEEEEEEEEEEEEET/nitroFriends/releases/tag/" + data.version_check[data.version_check.length - 1];
     }
     download.hidden = false;
-    displayChangelogs();
+    displayChangelogs(apple_app_store, false);
 }
 
 
-async function displayChangelogs() {
+async function displayChangelogs(apple, force) {
     var foundVersion = false;
-    for (let i = 0; i < data.version_check.length; i++) {
-        if (foundVersion) {
+    if (force) {
+        for (let i = 0; i < data.version_check.length; i++) {
             changelogData = `${changelogData}${data.changelogs[data.version_check[i]]}</br>`;
         }
-        if (data.version_check[i] == params.version) {
-            foundVersion = true;
-        }
+    } else {
+        for (let i = 0; i < data.version_check.length; i++) {
+            if (foundVersion) {
+                changelogData = `${changelogData}${data.changelogs[data.version_check[i]]}</br>`;
+            }
+            if (data.version_check[i] == params.version) {
+                foundVersion = true;
+            }
         
+        }
     }
+    if (!foundVersion) { displayChangeLogs(apple, true); }
     changelogText.innerHTML = changelogData;
     changelog.hidden = false;
 }
