@@ -48,9 +48,11 @@ async function displayChangelogs() {
             foundVersion = true;
         }
         if (foundVersion) {
-            changelogData = `${changelogData}${data.changelogs[data.version_check[i]]}`;
+            changelogData = `${changelogData}${data.changelogs[data.version_check[i]]}</br>`;
         }
     }
+    changelogText.innerHTML = changelogData;
+    changelog.hidden = false;
 }
 
 
