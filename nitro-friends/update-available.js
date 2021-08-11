@@ -36,6 +36,21 @@ async function displayData() {
         download.href = "https://github.com/JosephYapYEEEEEEEEEEEEEEEEEEEEEEEEEEEET/nitroFriends/releases/tag/" + data.version_check[data.version_check.length - 1];
     }
     download.hidden = false;
+    displayChangelogs();
 }
+
+
+async function displayChangelogs() {
+    var foundVersion = false;
+    for (let i = 0; i < data.version_check.length; i++) {
+        if (data.version_check[i] == params.version) {
+            alert(params.version)
+            foundVersion = true;
+        }
+    }
+}
+
+
+
 
 getVersions();
