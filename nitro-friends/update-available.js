@@ -70,7 +70,7 @@ async function displayChangelogs(apple, force) {
                 if (foundVersion) {
                     changelogData = `${changelogData}${data.changelogs_apple[data.version_check_apple[i]]}</br>`;
                 }
-                if (data.version_check[i] == params.version) {
+                if (data.version_check_apple[i] == params.version) {
                     foundVersion = true;
                 }
             }
