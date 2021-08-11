@@ -46,6 +46,7 @@ async function displayChangelogs(apple, force) {
     if (force) {
         for (let i = 0; i < data.version_check.length; i++) {
             changelogData = `${changelogData}${data.changelogs[data.version_check[i]]}</br>`;
+            foundVersion = true;
         }
     } else {
         for (let i = 0; i < data.version_check.length; i++) {
