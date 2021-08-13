@@ -7,6 +7,7 @@
   "zoom": "\"Zooooooooooom!\"",
   "dreamer": "\"Dreamer\"",
   "zzzzz": "\"zzzzzzzzzzzzzz...\"",
+  "not_aot": "\"Not an AOT fan\""
   "badtime": "\"you're gonna have a bad time.\"",
   "nyeh": "\"Nyeh Heh Heh!\"",
   "alt": "\"An Alt.\"",
@@ -20,5 +21,6 @@
   "learning_promise": "\"I'm learning, promise!\"",
   "sus": "\"Very sus...\"",
   "boss": "\"Why do I hear boss music?\"",
-  "time_waste": "\"You are wasting time reading this.\""
+  "time_waste": "\"You are wasting time reading this.\"",
+  "why_extended": "\"Why are we here, just to suffer?\""
 }
