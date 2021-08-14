@@ -11,7 +11,8 @@
     "0.3.9": "Added Update Checker",
     "0.3.10": "Added a request button where you can request custom badges and titles",
     "0.3.10.1": "Fixed a bug from 0.3.10",
-    "0.3.10.2": "Fixed a bug from 0.3.10.1"
+    "0.3.10.2": "Fixed a bug from 0.3.10.1",
+    "0.3.10.3": "Fixed a bug from 0.3.9"
   },
   "changelogs_apple": {
     "0.3.5": "",
@@ -33,7 +34,8 @@
     "0.3.9",
     "0.3.10",
     "0.3.10.1",
-    "0.3.10.2"
+    "0.3.10.2",
+    "0.3.10.3"
   ],
   "version_check_apple": [
     "0.3.5",
