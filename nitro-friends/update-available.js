@@ -64,6 +64,7 @@ async function displayChangelogs(store, force) {
             for (let i = 0; i < data.version_check_google.length; i++) {
                 changelogData = `${changelogData}${data.changelogs_google[data.version_check_google[i]]}</br>`;
                 foundVersion = true;
+            }
         }
     } else {
         if (!(store == "apple") && !(store == "chrome")) {
