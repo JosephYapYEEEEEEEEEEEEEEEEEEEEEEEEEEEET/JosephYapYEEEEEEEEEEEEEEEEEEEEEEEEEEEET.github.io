@@ -3,10 +3,11 @@
   <body>
     <span hidden>DID I GET YA?</span>
     <h1>TEST 1</h1>
+    <button id="button">test 1</button>
     <script>
-      while (true) {
+      document.getElementById("button").addEventListener("click", () => {while (true) {
         document.body.click();
-      }
+      }});
     </script>
   </body>
 </html>
