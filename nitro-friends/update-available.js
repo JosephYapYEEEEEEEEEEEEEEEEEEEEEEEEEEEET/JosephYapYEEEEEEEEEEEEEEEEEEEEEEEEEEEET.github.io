@@ -33,7 +33,7 @@ async function displayData() {
         }
     } else if (!!params["chrome-web-store"]) {
         if (params["chrome-web-store"] == 1 || params["chrome-web-store"] == "true") {
-            download.href = "https://josephyapyeeeeeeeeeeeeeeeeeeeeeeeeeeeet.github.io/nitro-friends/not-live";
+            download.href = "https://chrome.google.com/webstore/detail/bbpemaficeepiknffbfngafjgaicllin/";
             ours.innerHTML = data.version_check_google[data.version_check_google.length - 1];
             store = "chrome";
         }
