@@ -21,7 +21,8 @@
     "0.3.7": "Shows the badges in your garage",
     "0.3.8": "Added Custom Titles",
     "0.3.9": "Added Version Checker",
-    "0.3.10": "Adds a link to a form where you can request to get your badge and title changed"
+    "0.3.10": "Adds a link to a form where you can request to get your badge and title changed",
+    "0.3.11": "Fixed Bugs"
   },
   "changelogs_google": {
     "0.3.10": ""
@@ -47,14 +48,15 @@
     "0.3.7",
     "0.3.8",
     "0.3.9",
-    "0.3.10"
+    "0.3.10",
+    "0.3.11"
   ],
   "version_check_google": [
     "0.3.10"
   ],
  "not-released": {
    "": [],
-   "apple": ["0.3.11"],
+   "apple": [],
    "google": ["0.3.11"]
  }
 }
