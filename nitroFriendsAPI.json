@@ -25,7 +25,8 @@
     "0.3.11": "Fixed Bugs"
   },
   "changelogs_google": {
-    "0.3.10": ""
+    "0.3.10": "",
+    "0.3.11": "Fixed Bugs"
   },
   "version_check": [
     "0.3.1",
@@ -58,6 +59,6 @@
  "not-released": {
    "": [],
    "apple": [],
-   "google": ["0.3.11"]
+   "google": []
  }
 }
